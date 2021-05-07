@@ -1,0 +1,31 @@
+{
+    "name": "php-etl/packaging-contracts",
+    "description": "This library aims at providing contracts for building TAR archives, using PHP resources and streams",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Kiboko SAS",
+            "homepage": "http://kiboko.fr"
+        },
+        {
+            "name": "Grégory Planchat",
+            "email": "gregory@kiboko.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "nikic/php-parser": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiboko\\Contract\\Packaging\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
