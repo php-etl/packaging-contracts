@@ -3,7 +3,7 @@
     "description": "This library aims at providing contracts for building TAR archives, using PHP resources and streams",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Kiboko SAS",
