@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Kiboko\Contract\Packaging;
 
 /**
- * @implements \RecursiveIterator<FileInterface>
+ * @extends \RecursiveIterator<string, FileInterface>
  */
 interface DirectoryInterface extends \RecursiveIterator
 {
